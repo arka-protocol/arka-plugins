@@ -1,0 +1,42 @@
+{
+  "name": "@arka/aml",
+  "version": "1.0.0",
+  "description": "Anti-Money Laundering compliance domain plugin for ARKA Protocol",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint src --ext .ts",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@arka/types": "workspace:*",
+    "@arka/plugin-sdk": "workspace:*",
+    "@arka/utils": "workspace:*"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "keywords": [
+    "arka",
+    "compliance",
+    "aml",
+    "anti-money-laundering",
+    "sanctions",
+    "kyc",
+    "financial-crime"
+  ],
+  "author": "ARKA Systems LLC",
+  "license": "MIT"
+}
