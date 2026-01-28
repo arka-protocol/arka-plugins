@@ -21,8 +21,17 @@ npm install @arka/audit-log
 
 ## Creating Your Own Plugin
 
-See the [Plugin Development Guide](https://github.com/arka-protocol/arka-core) for documentation on building custom plugins.
+See the [Plugin Development Guide](https://www.arkaprotocol.com/docs/1.0.0/plugins) for documentation on building custom plugins.
+
+## Documentation
+
+- [Plugin Marketplace](https://www.arkaprotocol.com/plugins) - Browse all available plugins
+- [API Reference](https://www.arkaprotocol.com/docs/1.0.0/api) - Complete API documentation
 
 ## License
 
 Apache 2.0 - see [LICENSE](LICENSE) for details.
+
+---
+
+Built with ❤️ by [ARKA Protocol](https://www.arkaprotocol.com)
